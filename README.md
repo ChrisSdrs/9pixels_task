@@ -147,3 +147,9 @@ https://github.com/siderischristos/9pixels_task.git
         
         In the generated token are encrypted the username (string) and the role
         (boolean (isUser: "true" or isAdmin: "true")) of the chosen user.
+        
+    3.  If you try to catch the /helloadmin (or /hellouser) page using the token
+        created above and if the token has not expired, which are protected by
+        SpringJwtSecurity, there has to be a validation in CustomJwtAuthenticationFilter
+        class in config package.
+        Finally you get a response with the Hello Admin page.
