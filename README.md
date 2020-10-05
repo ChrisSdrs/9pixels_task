@@ -145,5 +145,5 @@ https://github.com/siderischristos/9pixels_task.git
         a token is being generated in JwtUtil class in config package. If the 
         credentials are wrong or the user does not exist, it throws an exception.
         
-        In the generated token are encrypted the username (string) and the role (boolean)
-        of the chosen user.
+        In the generated token are encrypted the username (string) and the role
+        (boolean (isUser: "true" or isAdmin: "true")) of the chosen user.
