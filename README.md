@@ -12,8 +12,7 @@ have to download Postman (https://www.postman.com/downloads/).
 As usual you get started by cloning the  project to your local machine:
 https://github.com/siderischristos/9pixels_task.git
 
-Now that you have cloned the repo:
-
+## How it works
     1. Open the project up in Intellij.
        
     2. If you use default username and password for MySQL 
