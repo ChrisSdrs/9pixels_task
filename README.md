@@ -8,6 +8,10 @@ have to download Postman (https://www.postman.com/downloads/).
 
 ### Open and Run Project in Intellij IDEA
 
+After Maven install, you can create a shortcut to the .jar file 
+(example: C:\PathToApp\ninepixels\target\ninepixels-0.0.1-SNAPSHOT.jar)
+Save the shortcut and open the application using it.
+
 
 As usual you get started by cloning the  project to your local machine:
 https://github.com/siderischristos/9pixels_task.git
