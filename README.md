@@ -23,7 +23,7 @@ https://github.com/siderischristos/9pixels_task.git
        username: root, 
        password: root 
        you skip this step,
-        if not go to the application.properties file 
+       if not go to the application.properties file 
        (C:\PathToApp\ninepixels\src\main\resources\application.properties)
        and at lines 2,3
        spring.datasource.username=root
