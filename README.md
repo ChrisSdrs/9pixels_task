@@ -103,13 +103,14 @@ https://github.com/siderischristos/9pixels_task.git
        
     25.  Send the request.
        
-    26. You see the page “Hello Admin”.
+    26.  You see the page “Hello Admin”.
        
     27.  If you create a user with the role of Admin you have
          access to both admin’s and user’s page.
          Repeat step 22 with the URL: http://localhost:8080/hellouser
          Repeat steps 23, 24, 25.
          You see the page “Hello User”.
+         
     28.  You can create a user with the role of a user. In step 10, in 
          the 4th line instead of “ROLE_ADMIN” you type
          “ROLE_USER” and change the username and password.
