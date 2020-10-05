@@ -147,6 +147,3 @@ https://github.com/siderischristos/9pixels_task.git
         
         In the generated token are encrypted the username (string) and the role (boolean)
         of the chosen user.
-        
-
-
