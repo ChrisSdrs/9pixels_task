@@ -28,27 +28,7 @@ Now that you have cloned the repo:
        replace “root” with your username and/or password.
        
     3. Install Maven. On the upper right side of the app screen click on maven and then ninepixels, Lifecycle, install.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/54001807/95075466-df2fe680-0718-11eb-97ca-b0820013c324.png)
 
     4. If you have already a table with the name “9pixels” in your database you have to go again in application.properties
        file and at the first line 
@@ -67,35 +47,21 @@ Now that you have cloned the repo:
     8. Create a new POST request with Request URL: http://localhost:8080/register
        
     9. Add a header with key “Content-Type” and value “application/json”
-
+![image](https://user-images.githubusercontent.com/54001807/95075617-274f0900-0719-11eb-8a1f-e4f72a6740f8.png)
 
     10.  Go to “Body” choose “raw” and type the following:
-
-
-
-
-
-
-
-
-
+         {
+             "username":"john",
+             "password":"smith",
+             "role":"ROLE_ADMIN"
+         }
+         
     11.  Send the request.
        
     12.  You created a user with username: “john”, password: “smith” and role of admin.
        
     13.  As you see the password is encrypted
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/54001807/95075626-2f0ead80-0719-11eb-958a-9f4bf685cf97.png)
 
     14.  Now you have to create a new POST request. 
          Open a new tab in Postman and in the Request URL field type
@@ -104,30 +70,22 @@ Now that you have cloned the repo:
     15.  Repeat step 9.
        
     16.  Go to “Body”, click on “raw” and type the username and password as follows
-
-
-
-
-
-
-
-
+         {
+             "username":"john",
+             "password":"smith"
+         }
     17.  Send the request.
        
     18.  The response must be a token which expires in five hours from the moment it has been created.
-
-
-
+![image](https://user-images.githubusercontent.com/54001807/95075637-3766e880-0719-11eb-8789-bab8c3f4fb3f.png)
 
     19.  Copy the token.
 
     20.  In your browser visit https://www.jsonwebtoken.io/
 
-
     21.  Paste the token. In “Payload” tab you can see the username of the user you created and 
          that his role is an Admin, as follows:
-
-
+![image](https://user-images.githubusercontent.com/54001807/95075662-42ba1400-0719-11eb-93eb-9f61f167e554.png)
 
     22.  Now go back to Postman and create a new GET request. Type the URL:
          http://localhost:8080/helloadmin
