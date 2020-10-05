@@ -8,7 +8,7 @@ the application you have to download Postman (https://www.postman.com/downloads/
 
 ### Open and Run Project in Intellij IDEA
 
-After Maven install, you can create a shortcut to the .jar file 
+After Maven install, you can create a shortcut of the .jar file 
 (example: C:\PathToApp\ninepixels\target\ninepixels-0.0.1-SNAPSHOT.jar)
 Save the shortcut and open the application using it.
 
